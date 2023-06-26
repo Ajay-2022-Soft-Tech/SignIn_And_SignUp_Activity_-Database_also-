@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/sign_in"
+        tools:ignore="InefficientWeight" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+        app:boxStrokeColor="@color/violet"
+        app:hintTextColor="@color/black"
+        android:textColor="@color/black"
+        app:startIconDrawable="@drawable/baseline_drive_file_rename_outline_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etName"
+            android:hint="Enter your Name"
+            app:boxStrokeColor="@color/violet"
+            android:textColor="@color/black"
+            app:hintTextColor="@color/black"
+            tools:ignore="HardcodedText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:boxStrokeColor="@color/violet"
+        app:hintTextColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        app:startIconDrawable="@drawable/baseline_email_24"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etMail"
+            android:hint="Enter your mail address"
+            android:textColorHint="#CC99FF"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        app:boxStrokeColor="@color/violet"
+        app:hintTextColor="@color/black"
+        android:textColorHint="@color/black"
+        app:startIconDrawable="@drawable/baseline_perm_identity_24"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Unique ID"
+            android:id="@+id/etUserName"
+            android:textColorHint="#CC99FF"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        app:boxStrokeColor="@color/violet"
+        app:hintTextColor="@color/black"
+        android:textColorHint="@color/black"
+        app:startIconDrawable="@drawable/baseline_lock_24"
+        app:endIconMode="password_toggle"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Password"
+            android:id="@+id/etPassword"
+            android:textColor="@color/black"
+            android:textColorHint="#CC99FF"
+            tools:ignore="HardcodedText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SIGN UP"
+        android:textColor="@color/black"
+        android:backgroundTint="#CC99FF"
+        android:layout_marginTop="20dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/tvSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="If already registered , click on Sign in"
+        android:layout_gravity="center">
+
+    </TextView>
+</LinearLayout>

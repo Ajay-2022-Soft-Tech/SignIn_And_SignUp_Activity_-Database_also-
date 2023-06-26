@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "267932327416",
+    "project_id": "data-base-sign-up",
+    "storage_bucket": "data-base-sign-up.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267932327416:android:47650938627a4a65dd8a0d",
+        "android_client_info": {
+          "package_name": "com.example.day16database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267932327416-66qqrb1mkb62jqc6de19uojk8k6435hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGpOdTWUnGfJjN0C2Vc-o8gpjLZZR3PbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267932327416-66qqrb1mkb62jqc6de19uojk8k6435hu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

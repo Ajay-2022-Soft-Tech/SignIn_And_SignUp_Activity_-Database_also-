@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:layout_marginTop="-10dp"
+        app:srcCompat="@drawable/database" />
+
+    <TextView
+        android:id="@+id/tVWelcome"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:text="Welcome"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="These are your details from our database"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/tVMail"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:text="Mail  :->" />
+
+    <TextView
+        android:id="@+id/tVUnique"
+        android:textSize="25dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:text="Unique Id  :->" />
+
+    <TextView
+        android:id="@+id/tVPassword"
+        android:textSize="25dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:text="Password  :->"  />
+</LinearLayout>
